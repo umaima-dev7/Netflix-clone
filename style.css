@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;600;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-image: url("assets/img/bg.jpg");
+    height: 95vh;
+    position: relative;
+    background-position: top -25px center;
+    background-repeat: no-repeat;
+    background-size: max(600px, 100vw);
+}
+
+.main .box {
+    height: 95vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.content {
+    color: white;
+    height: calc(100% - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    font-style: normal;
+    padding: 0px 30px;
+    gap: 15px;
+
+}
+
+.content> :first-child {
+    font-weight: 900;
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+.content> :nth-child(2) {
+    font-weight: 900;
+    font-size: 56px;
+    text-align: center;
+}
+
+.content> :nth-child(3) {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.content> :nth-child(4) {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.seperation{
+    height: 5px;
+    background-color: red;
+}
+
+.btn {
+    border-radius:5px ;
+    padding: 8px 40px;
+    font-size: 14px;
+    background-color: rgba(23,23,23,0.8);
+    color: white;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius:5px ;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.btn-red {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 15px 35px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.main input{
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 15px 135px 15px 25px;
+    background-color: rgba(23,23,23,0.8);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box2{
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+}
+.trending, .more{
+    position: relative;
+    color: white;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-top: 40px;
+    margin-left: 150px;
+    padding: 10px 10px;
+}
+
+section {
+    position: relative;
+    display: flex;
+    width: 1200px;
+    margin: 20px 150px;
+    overflow: auto;
+}
+section .img{
+    margin: 15px;
+    border-radius: 15px;
+}
+
+section .reasons{
+    color: white;
+}
